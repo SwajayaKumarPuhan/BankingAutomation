@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="17" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-06T09:27:29 IST" name="Suite" finished-at="2023-04-06T09:30:56 IST" duration-ms="207040">
+    <groups>
+    </groups>
+    <test started-at="2023-04-06T09:27:29 IST" name="BankingDomain" finished-at="2023-04-06T09:30:56 IST" duration-ms="207040">
+      <class name="testcases.AddCustomerPageTest">
+        <test-method signature="addNewCustomer()[pri:0, instance:testcases.AddCustomerPageTest@6c40365c]" started-at="2023-04-06T09:28:24 IST" name="addNewCustomer" finished-at="2023-04-06T09:28:50 IST" duration-ms="26352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+      </class> <!-- testcases.AddCustomerPageTest -->
+      <class name="testcases.VerifyHomeButtonTest">
+        <test-method signature="test1()[pri:0, instance:testcases.VerifyHomeButtonTest@7bedc48a]" started-at="2023-04-06T09:28:50 IST" name="test1" finished-at="2023-04-06T09:29:25 IST" duration-ms="34736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:testcases.VerifyHomeButtonTest@7bedc48a]" started-at="2023-04-06T09:29:25 IST" name="test2" finished-at="2023-04-06T09:29:58 IST" duration-ms="33229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:testcases.VerifyHomeButtonTest@7bedc48a]" started-at="2023-04-06T09:29:58 IST" name="test3" finished-at="2023-04-06T09:30:32 IST" duration-ms="33701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- testcases.VerifyHomeButtonTest -->
+      <class name="testcases.VerifyPageTittleTest">
+        <test-method signature="verifyanothervalidUser()[pri:0, instance:testcases.VerifyPageTittleTest@38afe297]" started-at="2023-04-06T09:30:32 IST" name="verifyanothervalidUser" finished-at="2023-04-06T09:30:44 IST" duration-ms="11859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyanothervalidUser -->
+        <test-method signature="verifyvalidUser()[pri:0, instance:testcases.VerifyPageTittleTest@38afe297]" started-at="2023-04-06T09:30:44 IST" name="verifyvalidUser" finished-at="2023-04-06T09:30:55 IST" duration-ms="11085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyvalidUser -->
+      </class> <!-- testcases.VerifyPageTittleTest -->
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@544fa968]" started-at="2023-04-06T09:27:29 IST" name="setup" finished-at="2023-04-06T09:27:35 IST" duration-ms="5458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@544fa968]" started-at="2023-04-06T09:27:36 IST" name="verifyInvalidUser" data-provider="readData" finished-at="2023-04-06T09:27:54 IST" duration-ms="17855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr4567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUser -->
+        <test-method signature="verifyInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@544fa968]" started-at="2023-04-06T09:27:54 IST" name="verifyInvalidUser" data-provider="readData" finished-at="2023-04-06T09:28:01 IST" duration-ms="7116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr4455]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vgfffjn1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUser -->
+        <test-method signature="verifyInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@544fa968]" started-at="2023-04-06T09:28:01 IST" name="verifyInvalidUser" data-provider="readData" finished-at="2023-04-06T09:28:08 IST" duration-ms="7288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mng5268]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Enexxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUser -->
+        <test-method signature="verifyInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@544fa968]" started-at="2023-04-06T09:28:08 IST" name="verifyInvalidUser" data-provider="readData" finished-at="2023-04-06T09:28:15 IST" duration-ms="6924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vghgfvjhgv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234mh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUser -->
+        <test-method signature="verifyvalidUser()[pri:0, instance:testcases.LoginTest@544fa968]" started-at="2023-04-06T09:28:15 IST" name="verifyvalidUser" finished-at="2023-04-06T09:28:24 IST" duration-ms="8567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyvalidUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@544fa968]" started-at="2023-04-06T09:30:55 IST" name="tearDown" finished-at="2023-04-06T09:30:56 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- BankingDomain -->
+  </suite> <!-- Suite -->
+</testng-results>
